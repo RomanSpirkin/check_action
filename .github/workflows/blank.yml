@@ -15,5 +15,5 @@ jobs:
         with:
           submodules: true
       - run: sudo apt-get update && sudo apt-get install cmake libgtest-dev
-      - run: mkdir build && cd build && cmake .. && ./test_check_cicd
+      - run: mkdir build && cd build && cmake .. && cmake --build . && ./test_check_cicd
         
