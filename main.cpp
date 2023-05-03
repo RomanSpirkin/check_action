@@ -1,8 +1,8 @@
 #include <iostream>
-#include "build/version.h"
+#include "lib.hpp"
 
 int main(){
-    std::cout << "Version: " << PATCH_VERSION << std::endl;
+    std::cout << "Version: " <<  current_version() << std::endl;
     std::cout << "Hello, world!" << std::endl;
     return 0;
 }

@@ -1,2 +1,3 @@
 # check_action
-check_deploy_in_github
+Для сборки запустите следующую команду 
+mkdir build && cd build && cmake .. && cmake --build .
