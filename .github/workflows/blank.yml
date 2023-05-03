@@ -16,6 +16,6 @@ jobs:
           submodules: true
       - run: sudo apt-get update && sudo apt-get install cmake libgtest-dev
       - run: mkdir build && cd build && cmake .. -DPATCH_VERSION=${{ github.run_number }} && cmake --build . && ./test_check_cicd
-      - run: cd build && cmake --build . --target package && ls 
+      - run: cd build && cmake --build . --target package 
       
         
