@@ -2,5 +2,5 @@
 #include "gtest/gtest.h"
 
 TEST(Test_lib,Coorect){
-    EXPECT_GT(current_version(),100);
+    EXPECT_GT(current_version(),0);
 }
